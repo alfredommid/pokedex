@@ -1,0 +1,63 @@
+:root {
+    --grass: rgb(163, 203, 56);
+    --bug: rgb(46, 213, 115);
+    --fire: rgb(255, 71, 87);
+    --water: rgb(30, 144, 255);
+    --poison: rgb(165, 94, 234);
+    --flying: rgb(207, 106, 135);
+    --normal:#f9844a;
+    --electric: rgb(255, 242, 0);
+    --ground: rgb(170, 166, 157);
+    --fairy: rgb(214, 162, 232);
+    --fighting: rgb(27, 20, 100);
+    --psychic: rgb(162, 155, 254);
+    --rock: rgb(121, 85, 72);
+    --steel: rgb(174, 182, 191);
+    --ice: rgb(0, 102, 255);
+    --ghost: rgb(64, 64, 122);
+    --dragon: #f25c54;
+  }
+main{
+    max-width: 98%;
+}
+.cuadro{
+    background-color: rgba(46, 64, 83,.4);
+    width: 40%;
+    height: 40%;
+    border: 5px solid #F6DDCC;
+    position: absolute;
+    top: 29%;
+    left: 70%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.name{
+    color: rgba(236, 240, 241, 1);
+    font-size: 2.2rem;
+    font-weight: 500;
+    word-wrap: break-word;
+    line-height: 1;
+}
+.principal{
+    background-color: #F6DDCC;
+    display: flex;
+}
+.imgindex{
+    z-index: 1;
+}  
+.color{
+    height: 64%;
+    width: 42%;
+    background-color: tomato;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    border: #f7f1e3 solid 8px;
+}
+.second{
+    transform: translateX(100%);
+    background-color: teal;
+}
+.principal:hover{
+    background-color: rgb(194, 186, 186,.5);
+}
